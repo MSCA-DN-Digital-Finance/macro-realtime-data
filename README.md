@@ -1,7 +1,7 @@
 # Real-time macro data layer (US, euro area, Italy)
 
 A validated, reproducible data layer for forecasting **interest rates, inflation and unemployment** in the US, the
-euro area and Italy, with **real-time vintages**: a forecaster at any date sees only the data published by then.
+euro area and Italy, with **real-time vintages**: a forecaster at any date sees only the data published by that point.
 
 Part of IRP 15, *Deep Generation of Financial Time Series*, in the MSCA Doctoral Network
 [Digital Finance](https://www.digital-finance-msca.com/) (Horizon Europe, GA 101119635). It feeds the project's
