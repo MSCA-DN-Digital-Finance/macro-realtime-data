@@ -1,0 +1,10 @@
+{
+  "title": "Real-time macro data layer (US, euro area, Italy): code, catalogue and validation",
+  "upload_type": "software",
+  "description": "Validated, reproducible data layer for forecasting interest rates, inflation and unemployment in the US, the euro area and Italy, with real-time vintages. 27 datasets, 1,060 series, 7.2 M observations from FRED, ECB, Eurostat, Philadelphia Fed (RTDSM, SPF), Federal Reserve Board and the Kenneth French Data Library; 133/133 automated validation checks pass. The deposit contains the collection and validation code, the data catalogue, the validation report and the sha256 manifest of the raw files; the data themselves are downloaded from the providers under their own terms. Part of IRP 15, Deep Generation of Financial Time Series, MSCA Doctoral Network Digital Finance.",
+  "creators": [{"name": "Ginavar, A.-T."}],
+  "license": "MIT",
+  "keywords": ["macroeconomic forecasting", "real-time data", "vintages", "data quality", "inflation", "interest rates", "unemployment", "euro area"],
+  "communities": [{"identifier": "digitalfinance"}],
+  "grants": [{"id": "10.13039/501100000780::101119635"}]
+}

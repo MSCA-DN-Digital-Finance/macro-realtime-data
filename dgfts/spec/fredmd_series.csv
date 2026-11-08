@@ -1,0 +1,118 @@
+fred_id,fredmd_name,tcode,group,description
+RPI,RPI,5,1,Real personal income
+W875RX1,W875RX1,5,1,Real personal income ex transfers
+DPCERA3M086SBEA,DPCERA3M086SBEA,5,1,Real personal consumption expenditures
+CMRMTSPL,CMRMTSPLx,5,1,Real manufacturing and trade sales
+RSAFS,RETAILx,5,1,Retail and food services sales
+INDPRO,INDPRO,5,1,Industrial production index
+IPFPNSS,IPFPNSS,5,1,IP: final products and nonindustrial supplies
+IPFINAL,IPFINAL,5,1,IP: final products
+IPCONGD,IPCONGD,5,1,IP: consumer goods
+IPDCONGD,IPDCONGD,5,1,IP: durable consumer goods
+IPNCONGD,IPNCONGD,5,1,IP: nondurable consumer goods
+IPBUSEQ,IPBUSEQ,5,1,IP: business equipment
+IPMAT,IPMAT,5,1,IP: materials
+IPDMAT,IPDMAT,5,1,IP: durable materials
+IPNMAT,IPNMAT,5,1,IP: nondurable materials
+IPMANSICS,IPMANSICS,5,1,IP: manufacturing (SIC)
+IPB51222S,IPB51222S,5,1,IP: residential utilities
+IPFUELS,IPFUELS,5,1,IP: fuels
+CUMFNS,CUMFNS,2,1,Capacity utilization: manufacturing
+CLF16OV,CLF16OV,5,2,Civilian labor force
+CE16OV,CE16OV,5,2,Civilian employment
+UNRATE,UNRATE,2,2,Unemployment rate
+UEMPMEAN,UEMPMEAN,2,2,Average duration of unemployment
+UEMPLT5,UEMPLT5,5,2,Unemployed < 5 weeks
+UEMP5TO14,UEMP5TO14,5,2,Unemployed 5–14 weeks
+UEMP15OV,UEMP15OV,5,2,Unemployed 15+ weeks
+UEMP15T26,UEMP15T26,5,2,Unemployed 15–26 weeks
+UEMP27OV,UEMP27OV,5,2,Unemployed 27+ weeks
+ICSA,CLAIMSx,5,2,Initial jobless claims
+PAYEMS,PAYEMS,5,2,All employees: total nonfarm
+USGOOD,USGOOD,5,2,All employees: goods-producing
+CES1021000001,CES1021000001,5,2,All employees: mining and logging
+USCONS,USCONS,5,2,All employees: construction
+MANEMP,MANEMP,5,2,All employees: manufacturing
+DMANEMP,DMANEMP,5,2,All employees: durable goods
+NDMANEMP,NDMANEMP,5,2,All employees: nondurable goods
+SRVPRD,SRVPRD,5,2,All employees: service-providing
+USTPU,USTPU,5,2,"All employees: trade, transport, utilities"
+USWTRADE,USWTRADE,5,2,All employees: wholesale trade
+USTRADE,USTRADE,5,2,All employees: retail trade
+USFIRE,USFIRE,5,2,All employees: financial activities
+USGOVT,USGOVT,5,2,All employees: government
+CES0600000007,CES0600000007,1,2,Avg weekly hours: goods-producing
+AWOTMAN,AWOTMAN,2,2,Avg weekly overtime hours: manufacturing
+AWHMAN,AWHMAN,1,2,Avg weekly hours: manufacturing
+CES0600000008,CES0600000008,6,2,Avg hourly earnings: goods-producing
+CES2000000008,CES2000000008,6,2,Avg hourly earnings: construction
+CES3000000008,CES3000000008,6,2,Avg hourly earnings: manufacturing
+HOUST,HOUST,4,3,Housing starts: total
+HOUSTNE,HOUSTNE,4,3,Housing starts: Northeast
+HOUSTMW,HOUSTMW,4,3,Housing starts: Midwest
+HOUSTS,HOUSTS,4,3,Housing starts: South
+HOUSTW,HOUSTW,4,3,Housing starts: West
+PERMIT,PERMIT,4,3,Building permits: total
+PERMITNE,PERMITNE,4,3,Building permits: Northeast
+PERMITMW,PERMITMW,4,3,Building permits: Midwest
+PERMITS,PERMITS,4,3,Building permits: South
+PERMITW,PERMITW,4,3,Building permits: West
+DGORDER,AMDMNOx,5,4,New orders: durable goods
+ANDENO,ANDENOx,5,4,New orders: nondefense capital goods
+AMDMUO,AMDMUOx,5,4,Unfilled orders: durable goods
+BUSINV,BUSINVx,5,4,Total business inventories
+ISRATIO,ISRATIOx,2,4,Inventories-to-sales ratio
+UMCSENT,UMCSENTx,2,4,Consumer sentiment (Michigan)
+M1SL,M1SL,6,5,M1 money stock
+M2SL,M2SL,6,5,M2 money stock
+M2REAL,M2REAL,5,5,Real M2 money stock
+BOGMBASE,BOGMBASE,6,5,Monetary base
+TOTRESNS,TOTRESNS,6,5,Total reserves
+BUSLOANS,BUSLOANS,6,5,Commercial and industrial loans
+REALLN,REALLN,6,5,Real estate loans
+NONREVSL,NONREVSL,6,5,Nonrevolving consumer credit
+DTCOLNVHFNM,DTCOLNVHFNM,6,5,Consumer motor vehicle loans outstanding
+DTCTHFNM,DTCTHFNM,6,5,Total consumer loans and leases outstanding
+INVEST,INVEST,6,5,Securities in bank credit
+FEDFUNDS,FEDFUNDS,2,6,Effective federal funds rate
+CPF3M,CP3Mx,2,6,3-month commercial paper rate
+TB3MS,TB3MS,2,6,3-month Treasury bill
+TB6MS,TB6MS,2,6,6-month Treasury bill
+GS1,GS1,2,6,1-year Treasury rate
+GS5,GS5,2,6,5-year Treasury rate
+GS10,GS10,2,6,10-year Treasury rate
+AAA,AAA,2,6,Moody's Aaa corporate yield
+BAA,BAA,2,6,Moody's Baa corporate yield
+TB3SMFFM,TB3SMFFM,1,6,3-month T-bill minus fed funds
+TB6SMFFM,TB6SMFFM,1,6,6-month T-bill minus fed funds
+T1YFFM,T1YFFM,1,6,1-year Treasury minus fed funds
+T5YFFM,T5YFFM,1,6,5-year Treasury minus fed funds
+T10YFFM,T10YFFM,1,6,10-year Treasury minus fed funds
+AAAFFM,AAAFFM,1,6,Aaa minus fed funds
+BAAFFM,BAAFFM,1,6,Baa minus fed funds
+EXSZUS,EXSZUSx,5,6,Swiss franc / US dollar
+EXJPUS,EXJPUSx,5,6,Japanese yen / US dollar
+EXUSUK,EXUSUKx,5,6,US dollar / British pound
+EXCAUS,EXCAUSx,5,6,Canadian dollar / US dollar
+WPSFD49207,WPSFD49207,6,7,PPI: finished goods
+WPSFD49502,WPSFD49502,6,7,PPI: finished consumer goods
+WPSID61,WPSID61,6,7,PPI: intermediate materials
+WPSID62,WPSID62,6,7,PPI: crude materials
+MCOILWTICO,OILPRICEx,6,7,"Crude oil, WTI"
+PPIACO,PPIACO,6,7,PPI: all commodities
+CPIAUCSL,CPIAUCSL,6,7,CPI: all items
+CPIAPPSL,CPIAPPSL,6,7,CPI: apparel
+CPITRNSL,CPITRNSL,6,7,CPI: transportation
+CPIMEDSL,CPIMEDSL,6,7,CPI: medical care
+CUSR0000SAC,CUSR0000SAC,6,7,CPI: commodities
+CUSR0000SAD,CUSR0000SAD,6,7,CPI: durables
+CUSR0000SAS,CUSR0000SAS,6,7,CPI: services
+CPIULFSL,CPIULFSL,6,7,CPI: all items less food
+CUSR0000SA0L2,CUSR0000SA0L2,6,7,CPI: all items less shelter
+CUSR0000SA0L5,CUSR0000SA0L5,6,7,CPI: all items less medical care
+PCEPI,PCEPI,6,7,PCE price index
+DDURRG3M086SBEA,DDURRG3M086SBEA,6,7,PCE prices: durable goods
+DNDGRG3M086SBEA,DNDGRG3M086SBEA,6,7,PCE prices: nondurable goods
+DSERRG3M086SBEA,DSERRG3M086SBEA,6,7,PCE prices: services
+NASDAQCOM,NASDAQx,5,8,NASDAQ composite (replaces S&P 500 index)
+VIXCLS,VIXCLSx,1,8,CBOE VIX

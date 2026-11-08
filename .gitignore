@@ -1,0 +1,11 @@
+data/raw/
+data/tidy/
+data/frozen/
+data/collect.log
+__pycache__/
+.DS_Store
+# private: research plan, session notes, internal reports
+CLAUDE.md
+PLAN.md
+reports/
+notes/

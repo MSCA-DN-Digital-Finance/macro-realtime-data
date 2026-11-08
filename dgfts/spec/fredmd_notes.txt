@@ -1,0 +1,3 @@
+Replaced vs official FRED-MD: S&P 500 / S&P industrials / dividend yield / PE → NASDAQ composite;
+Help-Wanted index and its ratio dropped (not on FRED); trade-weighted dollar dropped (series break);
+NONBORRES dropped (tcode 7, near-meaningless after 2008); PPICMM → PPIACO (longer history).
