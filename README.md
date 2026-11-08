@@ -69,7 +69,6 @@ python scripts/validate.py             # → data/VALIDATION.md, data/CATALOG.md
 
 ## Licence and citation
 
-Code: MIT ([LICENSE](LICENSE)). Data: the terms of each provider above. To cite, use the Zenodo DOI in the
-MSCA Digital Finance community (see the badge on the latest release).
+Code: MIT ([LICENSE](LICENSE)). Data: the terms of each provider above.
 
 Author: A.-T. Ginavar, MSCA Digital Finance doctoral candidate (IRP 15).
