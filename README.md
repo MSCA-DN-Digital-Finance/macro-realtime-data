@@ -9,6 +9,8 @@ macro-forecasting benchmark (Paper 1) and forecast-conditioned scenario generati
 
 **Status (2026-10-29):** 27 datasets, 1,060 series, 7.2 M observations; 133/133 validation checks pass.
 
+- [`data/public/`](data/public/): the data, one Parquet file per dataset (27 files, 32 MB, snapshot of 2026-10-29),
+  long format `series, date, value` (+ `vintage` for real-time data). Terms per provider: [`SOURCES.md`](data/public/SOURCES.md).
 - [`data/CATALOG.md`](data/CATALOG.md): every dataset with its source, coverage, row count and role.
 - [`data/VALIDATION.md`](data/VALIDATION.md): the 133 checks and their results.
 - [`data/manifest_raw.csv`](data/manifest_raw.csv): sha256 of every raw file, so a rebuilt snapshot can be verified.
@@ -25,8 +27,9 @@ macro-forecasting benchmark (Paper 1) and forecast-conditioned scenario generati
 | [Federal Reserve Board](https://www.federalreserve.gov/data/nominal-yield-curve.htm) | Gürkaynak–Sack–Wright zero-coupon curve |
 | [Kenneth French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) | daily factor and industry returns |
 
-No API keys are needed. The data themselves are not redistributed here: each provider's terms apply, and
-`collect.py` downloads them directly.
+No API keys are needed. Five FRED series need the owner's pre-approval for redistribution (SP500, DJIA, NASDAQCOM and
+the ICE BofA spreads BAMLC0A0CM, BAMLH0A0HYM2). They are left out of `data/public/`; `collect.py` downloads them for
+your own use. Everything else is public domain or free to reuse with the provider cited.
 
 ## Data-quality rules
 
@@ -57,6 +60,14 @@ Python ≥ 3.10 with `numpy`, `pandas`, `pyarrow`, `requests`, `openpyxl`.
 python scripts/collect.py              # everything, ~10 min → data/raw/ (as served) + data/tidy/*.parquet
 python scripts/collect.py ecb_spf rtdsm  # or only some datasets
 python scripts/validate.py             # → data/VALIDATION.md, data/CATALOG.md; exit code 1 if any check fails
+python scripts/export_public.py        # → data/public/*.parquet without the restricted series
+```
+
+Reading the data needs only pandas:
+
+```python
+import pandas as pd
+cpi = pd.read_parquet("data/public/rtdsm.parquet")   # every published vintage of US CPI, payrolls, IP, ...
 ```
 
 | Path | What |
@@ -66,9 +77,10 @@ python scripts/validate.py             # → data/VALIDATION.md, data/CATALOG.md
 | `dgfts/spec/` | FRED-MD series list, transformation codes, differences from the official file |
 | `scripts/collect.py` | download, tidy, hash |
 | `scripts/validate.py` | integrity, freshness, plausibility and cross-source checks |
+| `scripts/export_public.py` | redistributable copy of the data → `data/public/` |
 
 ## Licence and citation
 
-Code: MIT ([LICENSE](LICENSE)). Data: the terms of each provider above.
+Code: MIT ([LICENSE](LICENSE)). Data: the terms of each provider, listed in [`data/public/SOURCES.md`](data/public/SOURCES.md).
 
 Author: A.-T. Ginavar, MSCA Digital Finance doctoral candidate (IRP 15).
