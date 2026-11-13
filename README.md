@@ -3,6 +3,8 @@
 A validated, reproducible data layer for forecasting **interest rates, inflation and unemployment** in the US, the
 euro area and Italy, with **real-time vintages**: a forecaster at any date sees only the data published by that point.
 
+### In this context, real-time refers to a specific version of the data **before** revision, i.e. you can see the data as it was reported & used at a specific point in time by policymakers.
+
 Part of IRP 15, *Deep Generation of Financial Time Series*, in the MSCA Doctoral Network
 [Digital Finance](https://www.digital-finance-msca.com/). It feeds the project's
 macro-forecasting benchmark (Paper 1) and forecast-conditioned scenario generation (Paper 2).
